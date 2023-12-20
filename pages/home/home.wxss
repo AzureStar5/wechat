@@ -1,0 +1,39 @@
+/* pages/home/home.wxss */
+page {
+  background-color: #eef0f4;
+  
+}
+
+.container{
+  
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  top:-110px;
+  left:0px;
+  border-bottom: blue;
+  
+}
+.photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+.scanQR{
+  position: absolute;
+  top: 900px;
+  right: 140px;
+  border: none;
+  background-color: #198be4;
+  font-size: 40px;
+  color:white;
+  line-height: 50px;
+  z-index: 7;
+  opacity: 0;
+}

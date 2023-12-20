@@ -1,0 +1,15 @@
+<!--pages/prevention/prevention.wxml-->
+
+<view class="container">
+  <image class="photo" style="width: 414px;height: 896px;" src="https://user-images.githubusercontent.com/20225343/198862800-5eaaba1e-27e2-4331-bffd-9663aa1dff35.png">
+  <view class='time-wrapper'>
+    <view class="showdate">
+    <text>{{year}}-{{month}}-{{day}} {{'('}}{{weekday}}{{')'}}</text>
+   </view>
+   <view class="showtime">
+    <text>{{hour}}:{{minute}}:{{second}}</text>
+   </view>
+   <view class="entertime">{{timedate}} {{timetime}}</view>
+  </view>
+  </image>
+</view>

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class='page-wrapper'>
+  <button class="TJUapp" bindtap="TJUapp" style="width: 120px;height: 120px;"></button>
+  <button class="DigitalPV" bindtap="DigitalPV" style="width: 120px;height: 120px;"></button>
+</view> 
+
+
+
+
+

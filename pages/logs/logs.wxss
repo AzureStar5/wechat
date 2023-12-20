@@ -1,0 +1,67 @@
+page {
+  background-color: #eef0f4;
+  
+}
+.container{
+  
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  top:-110px;
+  left:0px;
+  border-bottom: blue;
+  
+}
+.showdate{
+  position:absolute;
+  top:20px;
+  left:-5px;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  font-size: 36rpx;
+  white-space: nowrap;
+  
+  opacity: 0.9;
+}
+
+.showtime{
+  position:absolute;
+  text-align: center;
+  top:50px;
+  left:5px;
+  font-family: 'Microsoft YaHei';
+  font-size: 64rpx;
+  line-height: 1.4;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.time-wrapper{
+  position: absolute;
+  top:260px;
+  left: 130px;
+  z-index: 4;
+  background-repeat: no-repeat;
+}
+.photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+.scanplaceQR{
+  position: absolute;
+  top:210px;
+  left: 20px;
+  border: none;
+  background-color: #198be4;
+  font-size: 22rpx;
+  color:white;
+  line-height: 20px;
+  z-index: 7;
+  opacity: 0.1;
+}

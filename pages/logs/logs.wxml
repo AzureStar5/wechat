@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view class="container">
+
+<image class="photo" style="width: 414px;height: 896px;" src="https://user-images.githubusercontent.com/20225343/200357945-b396b3db-c76b-4321-8b0d-bb846a072c17.png">
+<view class='time-wrapper'>
+    <view class="showdate">
+    <text>{{timedate}}（{{weekday}}）</text>
+   </view>
+   <view class="showtime">
+    <text>{{timetime}}</text>
+   </view>
+<button class="scanplaceQR" bindtap="scanplaceQR" style="width: fit-content;">scanplaceQR</button>
+</view> 
+</image>
+</view>

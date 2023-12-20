@@ -1,0 +1,47 @@
+page {
+  background-color: #eef0f4;
+  box-sizing: border-box;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 96rpx);
+}
+
+.page-wrapper{
+ 
+  z-index: 6;
+  position: relative;
+  padding-top: 220rpx;
+  padding-bottom: 1400rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.TJUapp{
+  position: absolute;
+  background: url(https://user-images.githubusercontent.com/20225343/202826755-593a0d8a-41bf-492b-8287-c48606a0b696.PNG);
+  background-size: 100% 100%;
+  top:268px;
+  right: 140px;
+  border: none;
+  border-radius: 25px;
+  
+  background-color: #198be4;
+  font-size: 22rpx;
+  
+  line-height: 14px;
+  z-index: 7;
+  opacity: 0.9;
+}
+
+.DigitalPV{
+  position: absolute;
+  background: url(https://user-images.githubusercontent.com/20225343/202826722-0a5e9584-f305-428b-a14c-d179375cd538.PNG);
+  background-size: 100% 100%;
+  top:468px;
+  right: 140px;
+  border: none;
+  border-radius: 25px;
+  background-color: #198be4;
+  font-size: 22rpx;
+  
+  line-height: 14px;
+  z-index: 7;
+  opacity: 0.9;
+}

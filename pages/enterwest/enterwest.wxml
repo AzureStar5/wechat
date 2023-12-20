@@ -1,0 +1,20 @@
+<!--pages/enterwest/enterwest.wxml-->
+<view class="container">
+<image class="photo" style="width: 414px;height: 896px;" src="https://user-images.githubusercontent.com/20225343/210582739-a4e1f8a5-3144-45a0-a9ca-b1e4f64bbf39.png" >
+  <view class='time-wrapper'>
+    
+    <text class="showdate">{{year}}年{{month}}月{{day}}日</text>
+
+   <view class="showtime">
+    <text>{{hour}}:{{minute}}:</text>
+   </view>
+   <view class="showsecond">
+    <text>{{second}}.</text>
+   </view>
+   <view class="showmillisecond">
+    <text>{{millisecond}}</text>
+   </view>
+  </view>
+</image>
+<image class="headphoto" style="width: 132px;height: 185px;" src="https://user-images.githubusercontent.com/20225343/190890457-39ac3d37-5996-42d7-a4c9-0c77a75823aa.jpg"></image>
+</view>

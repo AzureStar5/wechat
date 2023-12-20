@@ -1,0 +1,99 @@
+/* pages/enter/enter.wxss */
+page {
+  background-color: #eef0f4;
+  
+}
+
+.container{
+  
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+  top:-110px;
+  left:0px;
+  border-bottom: blue;
+  
+}
+.photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+.headphoto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  top:493px;
+  left:38px;
+  align-items: center;
+  position: absolute;
+  z-index: 4;
+}
+.time-wrapper{
+  position: absolute;
+  top: 145px;
+  right: 50px;
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+
+.showdate{
+  position:absolute;
+  text-align: center;
+  word-break: keep-all;
+  top:82px;
+  right:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75rpx;
+  font-weight: bolder;
+  opacity: 0.8;
+  z-index: 6;
+}
+
+.showtime{
+  position:absolute;
+  text-align: center;
+  top:140px;
+  right:130px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 120rpx;
+  line-height: 1.4;
+  opacity: 0.8;
+  z-index: 6;
+}
+
+.showsecond{
+  position:absolute;
+  text-align: center;
+  top:140px;
+  right:35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120rpx;
+  font-weight: bolder;
+  color:blue;
+ 
+  line-height: 1.4;
+  opacity: 0.8;
+  z-index: 6;
+}
+
+.showmillisecond{
+  position: absolute;
+  top:140px;
+  right:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120rpx;
+  color:red;
+  font-weight: bolder;
+  line-height: 1.4;
+  z-index: 6;
+}

@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+<image class="photo" style="width: 414px;height: 896px;" src="https://user-images.githubusercontent.com/20225343/210519952-c70e2833-a613-45d2-b70e-5b7a37406aab.png"></image>
+<button class="scanQR" bindtap="scanQR" style="width: fit-content;">scan</button>
+</view>
