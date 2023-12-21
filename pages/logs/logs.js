@@ -1,4 +1,4 @@
-// logs.js
+// logs.js 登录页面
 var util = require('../../utils/util.js');  //--定时器控件--
 Page({
 
